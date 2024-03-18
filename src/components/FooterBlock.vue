@@ -1,11 +1,11 @@
 <template>
-  <footer class="-mx-5 bg-[#2C2F48] text-white py-10 sm:py-12 lg:py-18 xl:py-24 ">
+  <footer class="-mx-5 sm:-mx-10 bg-[#2C2F48] text-white py-10 sm:py-12 lg:py-18 xl:py-24 ">
 
-    <div class="px-5 sm:px-0 lg:px-5 mx-auto max-w-[422px] sm:max-w-lg md:max-w-2xl lg:max-w-[1300px]">
+    <div class="px-5 sm:px-0 lg:px-10 mx-auto max-w-[422px] sm:max-w-lg md:max-w-2xl lg:max-w-[1350px]">
 
 
 
-  <LogoBlock :logoClass="'mx-auto w-40 lg:hidden'"/>
+      <LogoBlock :logoClass="'mx-auto w-40 lg:hidden'" />
 
 
 
@@ -38,7 +38,7 @@
         </div>
         <div class="lg:w-2/5 lg:order-1">
 
-          <LogoBlock class="hidden lg:block"/>
+          <LogoBlock class="hidden lg:block" />
 
           <ul class="mt-1 sm:mt-8 leading-5">
             <li>Unicorn Technologies Ltd. is regulated by the Mwali International</li>
