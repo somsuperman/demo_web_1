@@ -3,7 +3,7 @@
   <NavBock />
 
   <main class="max-w-[1260px] mx-auto py-8">
-    <section class="max-w-sm sm:max-w-lg md:max-w-2xl lg:max-w-7xl mx-auto">
+    <section class="max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-7xl mx-auto">
 
 
       <h1 class="text-white text-5xl sm:text-7xl max-w-screen-md mt-6 sm:mt-24 leading-tight  mb-8 sm:mb-12">
@@ -59,9 +59,16 @@ export default {
 };
 </script>
 
-
-<style>
+<style lang="scss">
 .route-home {
-  @apply bg-no-repeat bg-contain bg-[url('img/home/hero-bg-m.jpg')] sm:bg-[url('img/home/hero-bg.jpg')]
+
+.hero-bg {
+@apply before:-z-10 before:absolute before:h-full before:bg-cover before:bg-center before:bg-bottom before:sm:bg-top before:max-h-[800px] before:md:max-h-[700px] before:lg:max-h-[800px] before:xl:max-h-[900px] before:left-0 before:right-0 before:bg-[url('img/home/hero-bg-m.jpg')] before:sm:bg-[url('img/home/hero-bg.jpg')] before:lg:bg-[-10rem_top] before:xl:bg-top before:md:bg-cover before:bg-no-repeat before:lg:bg-cover before:xl:bg-cover before:2xl:bg-contain
 }
+
+}
+
 </style>
+
+
+

@@ -7,7 +7,7 @@
 
 
 
-    <section class="hero ml-auto relative max-w-sm sm:max-w-lg lg:max-w-md mx-auto lg:mr-0">
+    <section class="hero ml-auto relative max-w-md sm:max-w-2xl lg:max-w-md mx-auto lg:mr-0">
 
 
       <h1 class="text-white text-5xl sm:text-7xl mt-6 sm:mt-24 leading-tight mb-4">
@@ -70,12 +70,13 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 .route-aboutus {
 
   .hero-bg {
-    @apply before:-z-10 before:absolute before:h-full before:md:max-h-[600px] before:lg:max-h-[800px] before:left-0 before:right-0 before:bg-[url('img/about-us/about-us-bg.jpg')] before:bg-left-top before:xl:bg-top before:xl:bg-contain before:bg-no-repeat before:bg-[length:190%] before:sm:bg-[length:150%] before:lg:bg-[length:100%_auto]
+    @apply before:-z-10 before:absolute before:h-full before:md:max-h-[600px] before:lg:max-h-[800px] before:left-0 before:right-0 before:bg-[url('img/about-us/about-us-bg.jpg')] before:bg-left-top before:lg:bg-[-10rem_top] before:xl:bg-top before:md:bg-cover before:bg-no-repeat before:bg-[length:190%] before:sm:bg-[length:150%] before:lg:bg-cover before:xl:bg-cover before:2xl:bg-contain
   }
 
 }
+
 </style>

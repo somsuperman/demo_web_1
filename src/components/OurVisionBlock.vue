@@ -2,7 +2,7 @@
 
 
   <section
-    class="text-white mt-48 lg:py-16 max-w-sm sm:max-w-lg md:max-w-2xl lg:max-w-7xl mx-auto flex flex-col lg:flex-row items-center">
+    class="text-white mt-48 lg:py-16 max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-7xl mx-auto flex flex-col lg:flex-row items-center">
 
 
     <div class="w-full md:w-full mx-auto lg:order-2">

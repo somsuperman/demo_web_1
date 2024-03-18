@@ -1,9 +1,9 @@
 <template>
 
-  <section class="py-6 md:py-10 lg:py-16 xl:pb-0 flex flex-col md:flex-row items-center max-w-sm sm:max-w-lg md:max-w-2xl lg:max-w-max mx-auto">
+  <section class="py-6 md:py-10 lg:py-16 xl:pb-0 flex flex-col md:flex-row items-center max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-max mx-auto">
     
     <div class="sm:w-full md:w-full -mx-5 sm:-mr-14 xl:ml-0 md:-mr-14 md:-ml-10 lg:ml-0 lg:-mr-28">
-      <img src="/public/img/home/earth.png" class="w-full" alt="earth">
+      <img src="/img/home/earth.png" class="w-full" alt="earth">
     </div>
 
     <div class="w-full sm:ml-auto md:w-full lg:w-4/5 -mt-6 sm:mt-0 md:my-14">

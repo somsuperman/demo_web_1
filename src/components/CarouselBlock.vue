@@ -2,7 +2,7 @@
 
 
 
-  <section class="text-white mt-48 lg:py-16 max-w-sm sm:max-w-lg md:max-w-2xl lg:max-w-7xl mx-auto">
+  <section class="text-white mt-48 sm:mt-32 lg:mt-16 lg:py-16 max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-7xl mx-auto">
 
 
     <h2
