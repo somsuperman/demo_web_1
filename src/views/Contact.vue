@@ -7,7 +7,7 @@
 
 
 
-    <section class="hero ml-auto relative max-w-md sm:max-w-2xl lg:max-w-lg mx-auto lg:mr-0 2xl:pb-10">
+    <section class="hero ml-auto relative max-w-md sm:max-w-2xl lg:max-w-lg mx-auto md:pb-5 lg:mr-0 xl:pb-10">
 
 
       <h1 class="text-white text-5xl sm:text-7xl mt-6 sm:mt-18 leading-tight mb-4">
@@ -32,7 +32,6 @@
 
   <FooterBlock />
 
-
 </template>
 
 <script>
@@ -55,7 +54,7 @@ export default {
 .route-contact {
 
   .hero-bg {
-    @apply before:-z-10 before:absolute before:h-full before:bg-cover before:max-h-[400px] before:sm:max-h-[600px] before:md:max-h-[600px] before:lg:max-h-[650px] before:xl:max-h-[750px] before:2xl:max-h-[900px] before:left-0 before:right-0 before:bg-[url('img/contact/contact-bg.jpg')] before:bg-left-top before:lg:bg-bottom before:xl:bg-top before:md:bg-cover before:bg-no-repeat before:sm:bg-cover before:xl:bg-cover before:2xl:bg-contain
+    @apply before:-z-10 before:absolute before:h-full before:bg-cover before:max-h-[400px] before:sm:max-h-[600px] before:md:max-h-[600px] before:lg:max-h-[900px] before:xl:max-h-[900px] before:2xl:max-h-[902px] before:left-0 before:right-0 before:bg-[url('img/contact/contact-bg.jpg')] before:bg-left-top before:lg:bg-bottom before:xl:bg-top before:md:bg-cover before:bg-no-repeat before:sm:bg-cover before:xl:bg-cover before:2xl:bg-contain
   }
 
 }
