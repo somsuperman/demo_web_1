@@ -5,7 +5,7 @@
     class="text-white mt-48 lg:py-16 max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-7xl mx-auto flex flex-col lg:flex-row items-center">
 
 
-    <div class="w-full md:w-full mx-auto lg:order-2">
+    <div class="w-full md:w-full mx-auto lg:order-2 relative 2xl:left-24 2xl:w-[125%]">
       <img src="/img/about-us/about-us.jpg" class="w-full" alt="Our Mission">
     </div>
 
@@ -18,7 +18,7 @@
 
 
 
-      <ul class="text-white flex flex-col gap-10 md:gap-10 xl:gap-14 mt-10 md:pl-6 md:text-md pl-0 lg:pr-6">
+      <ul class="text-white flex flex-col gap-10 md:gap-10 xl:gap-14 mt-10 sm:mt-0 md:pl-6 md:text-md pl-0 lg:pr-6">
         <li>
           <h3
             class="font-permanent text-xl sm:text-2xl  bg-gradient-to-r from-cyan-400 to-fuchsia-400 text-transparent bg-clip-text inline-block">
