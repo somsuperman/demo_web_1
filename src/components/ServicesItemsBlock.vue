@@ -2,10 +2,10 @@
 
   <section class="text-white mt-28 mx-auto lg:py-30 lg:mt-44 xl:mt-64 2xl:mt-80 sm:py-10">
     <div
-      class=" py-10 2xl:py-14 max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-7xl mx-auto flex flex-col lg:flex-row items-center">
+      class=" py-10 2xl:py-14 max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-7xl mx-auto flex flex-col lg:flex-row items-center 2xl:mt-10">
 
 
-      <div class="w-full md:w-full mx-auto lg:order-2 md:max-w-lg lg:max-w-max">
+      <div class="w-full md:w-full mx-auto lg:order-2 md:max-w-lg lg:max-w-max 2xl:-mr-32 2xl:w-[140%]">
         <img src="/img/services/services-1.jpg" class="w-full" alt="Buying and Selling Cryptocurrency">
       </div>
 
@@ -34,7 +34,7 @@
       class=" py-10 2xl:py-14 max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-7xl mx-auto flex flex-col lg:flex-row items-center">
 
 
-      <div class="w-full md:w-full mx-auto md:max-w-lg lg:max-w-max">
+      <div class="w-full md:w-full mx-auto md:max-w-lg lg:max-w-max 2xl:-ml-32 2xl:w-[140%]">
         <img src="/img/services/services-2.jpg" class="w-full" alt="Cryptocurrency Futures and Exchanges">
       </div>
 
@@ -59,7 +59,7 @@
       class=" py-10 2xl:py-14 max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-7xl mx-auto flex flex-col lg:flex-row items-center">
 
 
-      <div class="w-full md:w-full mx-auto lg:order-2 md:max-w-lg lg:max-w-max">
+      <div class="w-full md:w-full mx-auto lg:order-2 md:max-w-lg lg:max-w-max 2xl:-mr-32 2xl:w-[140%]">
         <img src="/img/services/services-3.jpg" class="w-full" alt="Crypto Storage Solutions">
       </div>
 
@@ -88,7 +88,7 @@
       class=" py-10 2xl:py-14 max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-7xl mx-auto flex flex-col lg:flex-row items-center">
 
 
-      <div class="w-full md:w-full mx-auto md:max-w-lg lg:max-w-max">
+      <div class="w-full md:w-full mx-auto md:max-w-lg lg:max-w-max 2xl:-ml-32 2xl:w-[140%]">
         <img src="/img/services/services-4.jpg" class="w-full" alt="Crypto Financing Solutions">
       </div>
 
