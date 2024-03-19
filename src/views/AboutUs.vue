@@ -7,13 +7,13 @@
 
 
 
-    <section class="hero ml-auto relative max-w-md sm:max-w-2xl lg:max-w-md mx-auto lg:mr-0">
+    <section class="hero ml-auto relative max-w-md sm:max-w-2xl lg:max-w-lg mx-auto lg:mr-0">
 
 
       <h1 class="text-white text-5xl sm:text-7xl mt-6 sm:mt-24 leading-tight mb-4">
         About us
       </h1>
-      <p class="text-white">
+      <p class="text-white tk-oscine sm:text-lg sm:leading-relaxed">
         At Unicorn Technologies, we're pioneering the way forward in the digital space. We offer a comprehensive suite
         of services designed to meet the evolving needs of modern investors, including buying and selling
         cryptocurrencies, futures, secure storage, and financing solutions. Our commitment to innovation, security,
@@ -74,9 +74,8 @@ export default {
 .route-aboutus {
 
   .hero-bg {
-    @apply before:-z-10 before:absolute before:h-full before:md:max-h-[600px] before:lg:max-h-[800px] before:left-0 before:right-0 before:bg-[url('img/about-us/about-us-bg.jpg')] before:bg-left-top before:lg:bg-[-10rem_top] before:xl:bg-top before:md:bg-cover before:bg-no-repeat before:bg-[length:190%] before:sm:bg-[length:150%] before:lg:bg-cover before:xl:bg-cover before:2xl:bg-contain
+    @apply before:-z-10 before:absolute before:h-full before:md:max-h-[600px] before:lg:max-h-[902px] before:left-0 before:right-0 before:bg-[url('img/about-us/about-us-bg.jpg')] before:bg-left-top before:lg:bg-[-10rem_top] before:xl:bg-top before:md:bg-cover before:bg-no-repeat before:bg-[length:190%] before:sm:bg-[length:150%] before:lg:bg-cover before:xl:bg-cover before:2xl:bg-contain
   }
 
 }
-
 </style>

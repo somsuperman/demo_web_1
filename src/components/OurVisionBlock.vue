@@ -6,7 +6,7 @@
 
 
     <div class="w-full md:w-full mx-auto lg:order-2">
-      <img src="/public/img/about-us/about-us.jpg" class="w-full" alt="Our Mission">
+      <img src="/img/about-us/about-us.jpg" class="w-full" alt="Our Mission">
     </div>
 
     <div class="w-full sm:ml-auto md:w-full lg:w-full -mt-6 sm:my-10 md:my-14 lg:order-1">
@@ -18,13 +18,13 @@
 
 
 
-      <ul class="text-white flex flex-col gap-10 md:gap-10 xl:gap-14 mt-10 md:mt-0 md:pl-6 md:text-md pl-0 lg:pr-6">
+      <ul class="text-white flex flex-col gap-10 md:gap-10 xl:gap-14 mt-10 md:pl-6 md:text-md pl-0 lg:pr-6">
         <li>
           <h3
             class="font-permanent text-xl sm:text-2xl  bg-gradient-to-r from-cyan-400 to-fuchsia-400 text-transparent bg-clip-text inline-block">
             Our mission
           </h3>
-          <p class="pl-7 relative md:mt-1">
+          <p class="pl-7 relative md:mt-1 lg:mt-2 tk-oscine md:leading-relaxed md:text-lg">
             We strive to provide secure, innovative, and customer-focused services which empower our clients with the
             tools they need to navigate the crypto landscape confidently.
 
@@ -57,7 +57,7 @@
             class="font-permanent text-xl sm:text-2xl  bg-gradient-to-r from-cyan-400 to-fuchsia-400 text-transparent bg-clip-text inline-block">
             Our vision
           </h3>
-          <p class="pl-7 relative md:mt-1">
+          <p class="pl-7 relative md:mt-1 lg:mt-2 tk-oscine md:leading-relaxed md:text-lg">
             To lead the digital finance space and become the go-to platform for cryptocurrency services by
             consistently
             delivering services that meet the complex and evolving needs of modern-day goals.
@@ -91,7 +91,7 @@
             class="font-permanent text-xl sm:text-2xl  bg-gradient-to-r from-cyan-400 to-fuchsia-400 text-transparent bg-clip-text inline-block">
             Our activities
           </h3>
-          <p class="pl-7 relative md:mt-1">
+          <p class="pl-7 relative md:mt-1 lg:mt-2 tk-oscine md:leading-relaxed md:text-lg">
             Beyond our core services, we engage in comprehensive account management and support the growth of the
             digital currency ecosystem through strategic investments in crypto liquidity and mining ventures. Our
             approach is grounded in fostering innovation while ensuring the highest standards of security and
@@ -125,7 +125,7 @@
             class="font-permanent text-xl sm:text-2xl  bg-gradient-to-r from-cyan-400 to-fuchsia-400 text-transparent bg-clip-text inline-block">
             Our Team
           </h3>
-          <p class="pl-7 relative md:mt-1">
+          <p class="pl-7 relative md:mt-1 lg:mt-2 tk-oscine md:leading-relaxed md:text-lg">
             Our team comprises seasoned professionals with diverse expertise in finance, technology, and
             cryptocurrency.
             United by a shared vision, we are committed to delivering excellence and supporting our clients' success

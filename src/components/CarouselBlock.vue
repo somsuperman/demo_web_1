@@ -1,10 +1,5 @@
 <template xmlns="http://www.w3.org/1999/html">
-
-
-
   <section class="text-white mt-48 sm:mt-32 lg:mt-16 lg:py-16 max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-7xl mx-auto">
-
-
     <h2
       class="font-permanent text-2xl sm:text-4xl bg-gradient-to-r from-cyan-400 to-fuchsia-400 text-transparent bg-clip-text inline-block">
       Unmatched efficacy tailored to your desires.
@@ -24,7 +19,7 @@
             </span>
           </p>
 
-          <p class="font-thin">
+          <p class="font-thin tk-oscine mt-1">
             We embrace new technologies & methodologies to drive the future of finance.
           </p>
         </div>
@@ -43,7 +38,7 @@
             </span>
           </p>
 
-          <p class="font-thin">
+          <p class="font-thin tk-oscine mt-1">
             We embrace new technologies & methodologies to drive the future of finance.
           </p>
         </div>
@@ -62,7 +57,7 @@
             </span>
           </p>
 
-          <p class="font-thin">
+          <p class="font-thin tk-oscine mt-1">
             We embrace new technologies & methodologies to drive the future of finance.
           </p>
         </div>

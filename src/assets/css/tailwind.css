@@ -5,28 +5,39 @@
 @tailwind utilities;
 
 .gradient-border-bg {
-    border-image: linear-gradient(45deg, #0cd8f0, #ff67f0) 1;
+  border-image: linear-gradient(45deg, #0cd8f0, #ff67f0) 1;
 }
 
 .white-grad {
-    --b: 2px;
-    display: inline-block;
-    position: relative;
-    z-index: 0;
+  --b: 2px;
+  display: inline-block;
+  position: relative;
+  z-index: 0;
 }
 
 .white-grad:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    inset: 0;
-    background: linear-gradient(to right, #0cd8f0, #ff67f0);
-    padding: var(--b);
-    border-radius: 8px;
-    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-    -webkit-mask-composite: xor;
-    mask-composite: exclude;
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: linear-gradient(to right, #0cd8f0, #ff67f0);
+  padding: var(--b);
+  border-radius: 8px;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
 }
 
+.permanent-marker-regular {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 
+.baloo-tamma-400 {
+  font-family: "Baloo Tamma 2", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}

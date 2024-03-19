@@ -19,7 +19,7 @@
 
         <div class="sm:w-1/2 lg:w-1/5 lg:order-2">
           <h2 class="mb-3 sm:mb-5 text-lg font-semibold text-[#0CD8F0]">Unicorn Technologies</h2>
-          <ul class="text-gray-500 dark:text-gray-400 font-medium gap-3 grid">
+          <ul class="text-white gap-3 grid tk-oscine">
             <li>
               <router-link to="/" class="underline hover:no-underline">Home</router-link>
             </li>
@@ -33,10 +33,11 @@
         </div>
         <div class="sm:w-1/2 lg:w-1/5 lg:order-3">
           <h2 class="mb-3 sm:mb-5 text-lg font-semibold text-[#0CD8F0]">Contact</h2>
-          <p class="text-sm text-[#B9B9B9] mb-2">Email</p>
-          <a href="mailto:info@unicorntechnologies.com">info@unicorntechnologies.com</a>
+          <p class="text-sm text-[#B9B9B9] mb-2 tk-oscine">Email</p>
+          <a class="tk-oscine text-lg md:text-xl"
+            href="mailto:info@unicorntechnologies.com">info@unicorntechnologies.com</a>
         </div>
-        <div class="lg:w-2/5 lg:order-1">
+        <div class="lg:w-2/5 lg:order-1 tk-oscine text-sm">
 
           <LogoBlock class="hidden lg:block" />
 
@@ -50,7 +51,7 @@
           </ul>
         </div>
       </div>
-      <div class="lg:text-right text-[#B9B9B9] text-sm mt-4 sm:mt-5">
+      <div class="text-sm lg:text-right text-[#B9B9B9] mt-4 sm:mt-5 tk-oscine">
         Copyright © 2024 - Unicorn Technologies Limited. All rights reserved
       </div>
     </div>
