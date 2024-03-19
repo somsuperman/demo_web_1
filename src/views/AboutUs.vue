@@ -3,17 +3,13 @@
   <NavBock />
 
   <main class="max-w-[1260px] mx-auto py-8">
-
-
-
-
     <section class="hero ml-auto relative max-w-md sm:max-w-2xl lg:max-w-lg mx-auto lg:mr-0">
 
 
       <h1 class="text-white text-5xl sm:text-7xl mt-6 sm:mt-24 leading-tight mb-4">
         About us
       </h1>
-      <p class="text-white tk-oscine sm:text-lg sm:leading-relaxed">
+      <p class="text-white tk-oscine sm:text-lg sm:leading-relaxed max-w-xl">
         At Unicorn Technologies, we're pioneering the way forward in the digital space. We offer a comprehensive suite
         of services designed to meet the evolving needs of modern investors, including buying and selling
         cryptocurrencies, futures, secure storage, and financing solutions. Our commitment to innovation, security,

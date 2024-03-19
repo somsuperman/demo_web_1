@@ -93,20 +93,19 @@
         <ul
           class="font-medium flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-16 lg:space-x-20 rtl:space-x-reverse md:mt-0 md:border-0 items-center gap-6 md:gap-0">
           <li>
-            <router-link to="/about-us"
-              class="block py-2 px-3 text-white md:p-0 hover:text-purple-300 transition-colors duration-300">
-              About
-              us
+            <router-link to="/about-us" :active-class="'text-purple-400 underline'"
+              class="block py-2 px-3 text-white md:p-0 hover:text-purple-300 transition-colors duration-300 text-pur">
+              About us
             </router-link>
           </li>
           <li>
-            <router-link to="/services"
+            <router-link to="/services" :active-class="'text-purple-400 underline'"
               class="block py-2 px-3 text-white md:p-0 hover:text-purple-300 transition-colors duration-300">
               Services
             </router-link>
           </li>
           <li>
-            <router-link to="/contact"
+            <router-link to="/contact" :active-class="'text-purple-400'"
               class="text-white md:p-0 white-grad block transition-all duration-300 hover:bg-white rounded-lg hover:scale-105 hover:bg-opacity-10">
               <span class="py-4 px-12 inline-block">Contact</span>
             </router-link>

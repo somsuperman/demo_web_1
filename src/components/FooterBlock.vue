@@ -1,7 +1,7 @@
 <template>
   <footer class="-mx-5 sm:-mx-10 bg-[#2C2F48] text-white py-10 sm:py-12 lg:py-18 xl:py-24 ">
 
-    <div class="px-5 sm:px-0 lg:px-10 mx-auto max-w-[422px] sm:max-w-lg md:max-w-2xl lg:max-w-[1350px]">
+    <div class="px-5 sm:px-0 lg:px-10 mx-auto max-w-[30.5rem] sm:max-w-lg md:max-w-2xl lg:max-w-[1350px]">
 
 
 
