@@ -53,6 +53,7 @@ router.beforeEach((to, from, next) => {
   document.body.classList.remove("route-" + String(from.name).toLowerCase());
   document.body.classList.add("route-" + String(to.name).toLowerCase());
   document.title = String(to.meta.title);
+  window.scrollTo(0, 0);
   next();
 });
 

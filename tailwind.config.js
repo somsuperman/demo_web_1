@@ -6,6 +6,9 @@ module.exports = {
       colors: {
         primary: '#1D0A34',
       },
+      fontSize: {
+        'xl': '1.35rem',
+      },
       backgroundPosition: {
         "pos-0": "0% 0%",
         "pos-100": "100% 100%",
