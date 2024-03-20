@@ -8,6 +8,7 @@ import enMessages from './locales/en.json';
 
 const i18n = createI18n({
     locale: 'en',
+    legacy: false,
     messages: {
         en: enMessages,
     }

@@ -73,7 +73,7 @@
       <svg
           v-if="slider"
           @click="slider.prev()"
-          class="w-6"
+          class="w-6 cursor-pointer"
           :class="{
         arrow: true,
         'arrow--left': true,
@@ -87,7 +87,7 @@
       </svg>
       <svg
           v-if="slider"
-          class="w-6"
+          class="w-6 cursor-pointer"
           viewBox="0 0 24 24"
           @click="slider.next()"
           :class="{
