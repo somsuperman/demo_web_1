@@ -3,11 +3,10 @@
   <main class="max-w-[1260px] mx-auto py-8">
     <section class="hero ml-auto relative max-w-md sm:max-w-2xl lg:max-w-xl mx-auto lg:mr-0">
       <h1 class="text-white text-5xl sm:text-7xl mt-6 sm:mt-24 leading-tight mb-4">
-        About us
+        {{ $t('about_us_title') }}
       </h1>
       <p class="text-white tk-oscine text-lg md:text-xl sm:leading-relaxed max-w-xl">
-        At Unicorn Technologies, we're pioneering the way forward in the digital space. We offer a comprehensive suite of services designed to meet the evolving needs of modern investors, including buying and selling cryptocurrencies,
-        futures, secure storage, and financing solutions. Our commitment to innovation, security, and integrity drives us to deliver excellence in all we do.
+        {{ $t('about_us_content') }}
       </p>
       <svg class="w-20 absolute right-0 -bottom-32 md:-bottom-42 lg:-bottom-40" version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 94 103">
         <defs>

@@ -1,26 +1,21 @@
-// Import the createApp function from Vue to initialize the application
 import { createApp } from 'vue';
-
-// Import createPinia for state management across the app
 import { createPinia } from 'pinia';
-
-// Import the main App component
 import App from './App.vue';
-
-// Import TailwindCSS for styling
 import './assets/css/tailwind.css';
-
-// Import the router setup from the router directory
 import router from './router/index.ts';
+import { createI18n } from 'vue-i18n';
+import enMessages from './locales/en.json';
 
-// Create a new Vue application instance
+const i18n = createI18n({
+    locale: 'en',
+    messages: {
+        en: enMessages,
+    }
+  });
+
 const app = createApp(App);
 
-// Use Pinia for state management
 app.use(createPinia());
-
-// Use Vue Router for handling navigation
+app.use(i18n);
 app.use(router);
-
-// Mount the Vue application to the DOM element with the ID 'app'
 app.mount('#app');

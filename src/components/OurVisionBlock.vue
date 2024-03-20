@@ -7,10 +7,10 @@
       <ul class="text-white flex flex-col gap-10 md:gap-10 xl:gap-14 mt-10 sm:mt-0 md:pl-6 md:text-md pl-0 lg:pr-6">
         <li>
           <h3 class="font-permanent text-xl sm:text-2xl bg-gradient-to-r from-cyan-400 to-fuchsia-400 text-transparent bg-clip-text inline-block">
-            Our mission
+            {{ $t('ourVision.missionTitle') }}
           </h3>
           <p class="pl-7 relative md:mt-1 lg:mt-2 tk-oscine md:leading-relaxed md:text-lg">
-            We strive to provide secure, innovative, and customer-focused services which empower our clients with the tools they need to navigate the crypto landscape confidently.
+            {{ $t('ourVision.missionDescription') }}
             <svg class="absolute w-14 -left-6 sm:-left-10 -bottom-8" viewBox="0 0 89 120" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_26_16578)">
                 <path
@@ -32,10 +32,10 @@
         </li>
         <li>
           <h3 class="font-permanent text-xl sm:text-2xl bg-gradient-to-r from-cyan-400 to-fuchsia-400 text-transparent bg-clip-text inline-block">
-            Our vision
+            {{ $t('ourVision.visionTitle') }}
           </h3>
           <p class="pl-7 relative md:mt-1 lg:mt-2 tk-oscine md:leading-relaxed md:text-lg">
-            To lead the digital finance space and become the go-to platform for cryptocurrency services by consistently delivering services that meet the complex and evolving needs of modern-day goals.
+            {{ $t('ourVision.visionDescription') }}
             <svg class="w-14 absolute -right-4 sm:-right-10 -bottom-14" viewBox="0 0 81 88" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_26_16582)">
                 <path
@@ -57,11 +57,10 @@
         </li>
         <li>
           <h3 class="font-permanent text-xl sm:text-2xl bg-gradient-to-r from-cyan-400 to-fuchsia-400 text-transparent bg-clip-text inline-block">
-            Our activities
+            {{ $t('ourVision.activitiesTitle') }}
           </h3>
           <p class="pl-7 relative md:mt-1 lg:mt-2 tk-oscine md:leading-relaxed md:text-lg">
-            Beyond our core services, we engage in comprehensive account management and support the growth of the digital currency ecosystem through strategic investments in crypto liquidity and mining ventures. Our approach is grounded in
-            fostering innovation while ensuring the highest standards of security and compliance.
+            {{ $t('ourVision.activitiesDescription') }}
             <svg class="w-20 absolute -left-8 sm:-left-12 -bottom-9" viewBox="0 0 101 103" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_26_16588)">
                 <path
@@ -83,11 +82,10 @@
         </li>
         <li>
           <h3 class="font-permanent text-xl sm:text-2xl bg-gradient-to-r from-cyan-400 to-fuchsia-400 text-transparent bg-clip-text inline-block">
-            Our Team
+            {{ $t('ourVision.teamTitle') }}
           </h3>
           <p class="pl-7 relative md:mt-1 lg:mt-2 tk-oscine md:leading-relaxed md:text-lg">
-            Our team comprises seasoned professionals with diverse expertise in finance, technology, and cryptocurrency. United by a shared vision, we are committed to delivering excellence and supporting our clients' success in the digital
-            currency market.
+            {{ $t('ourVision.teamDescription') }}
           </p>
         </li>
       </ul>

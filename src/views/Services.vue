@@ -3,10 +3,10 @@
   <main class="max-w-[1260px] mx-auto py-8">
     <section class="hero ml-auto relative max-w-md sm:max-w-2xl lg:max-w-xl mx-auto lg:mr-0 2xl:pb-10">
       <h1 class="text-white text-5xl sm:text-7xl mt-6 sm:mt-24 leading-tight mb-4">
-        Services
+        {{ $t('services_title') }}
       </h1>
       <p class="text-white tk-oscine text-lg md:text-xl sm:leading-relaxed max-w-lg">
-        Explore our comprehensive services designed for every crypto enthusiast - from novices to experienced traders and investors.
+        {{ $t('services_description') }}
       </p>
       <svg class="w-20 absolute right-0 -bottom-32 md:-bottom-42 lg:-bottom-56" version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 94 103">
         <defs>

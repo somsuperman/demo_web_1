@@ -1,7 +1,7 @@
 <template xmlns="http://www.w3.org/1999/html">
   <section class="text-white mt-48 sm:mt-32 lg:mt-16 lg:py-16 max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-7xl mx-auto">
     <h2 class="font-permanent text-2xl sm:text-4xl bg-gradient-to-r from-cyan-400 to-fuchsia-400 text-transparent bg-clip-text inline-block">
-      Unmatched efficacy tailored to your desires.
+      {{ $t('unmatched_efficacy_title') }}
     </h2>
     <div ref="container" class="keen-slider mt-5">
       <div class="keen-slider__slide number-slide1">
@@ -17,11 +17,11 @@
               />
             </svg>
             <span class="text-xl text-[#0CD8F0]">
-              Innovation
+              {{ $t('innovation_title') }}
             </span>
           </p>
           <p class="font-thin tk-oscine mt-1 text-lg">
-            We embrace new technologies & methodologies to drive the future of finance.
+            {{ $t('innovation_description') }}
           </p>
         </div>
       </div>
@@ -38,11 +38,11 @@
               />
             </svg>
             <span class="text-xl text-[#FF67F0]">
-              Security
+              {{ $t('security_title') }}
             </span>
           </p>
           <p class="font-thin tk-oscine mt-1 text-lg">
-            Our platforms are protected with the highest standards of safety measures.
+            {{ $t('security_description') }}
           </p>
         </div>
       </div>
@@ -59,11 +59,11 @@
               />
             </svg>
             <span class="text-xl text-[#C8A0FF]">
-              Integrity
+              {{ $t('integrity_title') }}
             </span>
           </p>
           <p class="font-thin tk-oscine mt-1 text-lg">
-            We operate with transparency, ensuring trust & reliability in every move.
+            {{ $t('integrity_description') }}
           </p>
         </div>
       </div>
@@ -128,45 +128,13 @@ export default {
           slides: {perView: 3, spacing: 40},
         },
       },
-      slideChanged: (s) => {
-        current.value = s.track.details.rel;
-        console.log(456);
+        slideChanged: (s) => {
+         current.value = s.track.details.rel;
       },
     });
 
     const dotHelper = computed(() => (slider.value ? [...Array(slider.value.track.details.slides.length).keys()] : []));
-    console.log(slider);
     return {container, current, dotHelper, slider, windowWidth};
   },
 };
 </script>
-
-<style scoped>
-.carousel__prev,
-.carousel__next {
-  box-sizing: content-box;
-  background: red;
-  border-radius: var(--vc-nav-border-radius);
-  width: var(--vc-nav-width);
-  height: var(--vc-nav-height);
-  text-align: center;
-  font-size: var(--vc-nav-height);
-  padding: 0;
-  color: blue;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  border: 0;
-  cursor: pointer;
-  margin: 0 10px;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.is-dragging,
-.carousel__track {
-  pointer-events: none !important;
-  touch-action: auto !important;
-}
-</style>

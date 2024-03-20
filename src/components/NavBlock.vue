@@ -1,7 +1,7 @@
 <template>
   <header>
     <nav class="max-w-[1260px] flex flex-wrap items-center justify-between mx-auto py-5 sm:py-8 text-lg tracking-wide">
-      <router-link to="/" @click="hideMenu" class="flex items-center space-x-3 rtl:space-x-reverse">
+      <router-link to="/" @click="hideMenu" class="flex items-center space-x-3 rtl:space-x-reverse" aria-label="homepage">
         <LogoBlock :logoClass="'w-28 sm:w-44'" />
       </router-link>
       <button @click="toggle" type="button" class="items-right p-2 w-10 h-10 md:hidden mt-2" aria-controls="navbar-default" aria-expanded="false">

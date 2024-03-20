@@ -7,10 +7,10 @@
       <div class="w-full sm:ml-auto md:w-full lg:w-full">
         <div class="text-white max-w-md xl:max-w-xl">
           <h3 class="text-[#0CD8F0] text-lg sm:text-xl md:text-3xl leading-tight">
-            Buying and Selling Cryptocurrency
+            {{ $t('services.buyingSellingCrypto.title') }}
           </h3>
           <p class="relative mt-2 tk-oscine md:leading-relaxed md:text-xl">
-            Seamlessly buy and sell a wide range of cryptocurrencies with confidence on our user-friendly platform. Enjoy competitive rates, fast transactions, and unparalleled customer support.
+            {{ $t('services.buyingSellingCrypto.description') }}
           </p>
         </div>
       </div>
@@ -22,10 +22,10 @@
       <div class="w-full sm:ml-auto md:w-full lg:w-full">
         <div class="text-white max-w-md xl:max-w-xl ml-auto">
           <h3 class="text-[#0CD8F0] text-lg sm:text-xl md:text-3xl leading-tight">
-            Cryptocurrency Futures and Exchanges
+            {{ $t('services.cryptocurrencyFutures.title') }}
           </h3>
           <p class="relative mt-2 tk-oscine md:leading-relaxed md:text-xl">
-            Dive into the future of finance with our cryptocurrency futures and exchange services. We facilitate secure exchanges between FIAT and virtual currencies, as well as virtual-to-virtual currency trading.
+            {{ $t('services.cryptocurrencyFutures.description') }}
           </p>
         </div>
       </div>
@@ -37,10 +37,10 @@
       <div class="w-full sm:ml-auto md:w-full lg:w-full">
         <div class="text-white max-w-md xl:max-w-xl">
           <h3 class="text-[#0CD8F0] text-lg sm:text-xl md:text-3xl leading-tight">
-            Crypto Storage Solutions
+            {{ $t('services.cryptoStorage.title') }}
           </h3>
           <p class="relative mt-2 tk-oscine md:leading-relaxed md:text-xl">
-            Secure your digital assets with our state-of-the-art crypto storage solutions. Our advanced protection measures ensure your assets and data are safe, accessible, and protected against threats.
+            {{ $t('services.cryptoStorage.description') }}
           </p>
         </div>
       </div>
@@ -52,10 +52,10 @@
       <div class="w-full sm:ml-auto md:w-full lg:w-full">
         <div class="text-white max-w-md xl:max-w-xl ml-auto">
           <h3 class="text-[#0CD8F0] text-lg sm:text-xl md:text-3xl leading-tight">
-            Crypto Financing Solutions
+            {{ $t('services.cryptoFinancing.title') }}
           </h3>
           <p class="relative mt-2 tk-oscine md:leading-relaxed md:text-xl">
-            Unlock the potential of your digital assets with our flexible crypto financing solutions. Whether you're looking to take a loan in cryptocurrency or make deposits in digital currencies, we've got you covered.
+            {{ $t('services.cryptoFinancing.description') }}
           </p>
         </div>
       </div>

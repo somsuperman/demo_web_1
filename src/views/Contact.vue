@@ -3,12 +3,11 @@
   <main class="max-w-[1260px] mx-auto py-8">
     <section class="hero ml-auto relative max-w-md sm:max-w-2xl lg:max-w-xl mx-auto md:pb-5 lg:mr-0 xl:pb-10">
       <h1 class="text-white text-5xl sm:text-7xl mt-6 sm:mt-18 leading-tight mb-4">
-        Contact us
+        {{ $t('contact_title') }}
       </h1>
       <p class="text-white tk-oscine text-lg md:text-xl sm:leading-relaxed max-w-lg">
-        From general inquiries to technical support, we’re here to help. Fill out our contact form, and one of our representatives will get in touch with you promptly.
+        {{ $t('contact_description') }}
       </p>
-
       <ContactFormSection />
     </section>
   </main>

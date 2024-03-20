@@ -1,0 +1,89 @@
+{
+    "about_us_title": "About us",
+    "about_us_content": "At Unicorn Technologies, we're pioneering the way forward in the digital space. We offer a comprehensive suite of services designed to meet the evolving needs of modern investors, including buying and selling cryptocurrencies, futures, secure storage, and financing solutions. Our commitment to innovation, security, and integrity drives us to deliver excellence in all we do.",
+    "contact_title": "Contact us",
+    "contact_description": "From general inquiries to technical support, we’re here to help. Fill out our contact form, and one of our representatives will get in touch with you promptly.",
+    "home_title": "Your gateway to pioneering crypto solutions",
+    "our_services": "Our services",
+    "services_title": "Services",
+    "services_description": "Explore our comprehensive services designed for every crypto enthusiast - from novices to experienced traders and investors.",
+    "benefits_title": "Benefits",
+    "seasoned_expertise_title": "Seasoned expertise",
+    "seasoned_expertise_description": "Take advantage of our team’s deep industry knowledge.",
+    "quick_start_title": "Quick start",
+    "quick_start_description": "Access services swiftly with no hassle & complexities.",
+    "unrivaled_fees_title": "Unrivaled fees",
+    "unrivaled_fees_description": "Pay less, get more with our cost-effective services.",
+    "support_24_7_title": "24/7 support",
+    "support_24_7_description": "Round-the-clock assistance for all your needs & inquiries.",
+    "unmatched_efficacy_title": "Unmatched efficacy tailored to your desires.",
+    "innovation_title": "Innovation",
+    "innovation_description": "We embrace new technologies & methodologies to drive the future of finance.",
+    "security_title": "Security",
+    "security_description": "Our platforms are protected with the highest standards of safety measures.",
+    "integrity_title": "Integrity",
+    "integrity_description": "We operate with transparency, ensuring trust & reliability in every move.",
+    "firstNamePlaceholder": "Your first name*",
+    "lastNamePlaceholder": "Your last name*",
+    "emailPlaceholder": "Your email*",
+    "phonePlaceholder": "Phone*",
+    "messagePlaceholder": "Message*",
+    "firstNameError": "Please enter your first name",
+    "lastNameError": "Please enter your last name",
+    "emailError": "Please enter your email",
+    "invalidEmailError": "Please enter a valid email address",
+    "phoneError": "Please enter your phone number",
+    "messageError": "Please enter your message",
+    "sendMessageButton": "Send message",
+    "footer": {
+      "navigationTitle": "Unicorn Technologies",
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "contactTitle": "Contact",
+      "emailLabel": "Email",
+      "emailAddress": "info@unicorntechnologies.com",
+      "regulatedBy": "Unicorn Technologies Ltd. is regulated by the Mwali International Services Authority",
+      "licenseNumber": "License No.: BFX2024008",
+      "registrationNumber": "Reg. No: HA00124732",
+      "address": "Address: Bonovo Road – Fomboni, Island of Mohéli – Comoros Union",
+      "copyright": "Copyright © 2024 - Unicorn Technologies Limited. All rights reserved"
+    },
+    "ourVision": {
+      "missionTitle": "Our mission",
+      "missionDescription": "We strive to provide secure, innovative, and customer-focused services which empower our clients with the tools they need to navigate the crypto landscape confidently.",
+      "visionTitle": "Our vision",
+      "visionDescription": "To lead the digital finance space and become the go-to platform for cryptocurrency services by consistently delivering services that meet the complex and evolving needs of modern-day goals.",
+      "activitiesTitle": "Our activities",
+      "activitiesDescription": "Beyond our core services, we engage in comprehensive account management and support the growth of the digital currency ecosystem through strategic investments in crypto liquidity and mining ventures. Our approach is grounded in fostering innovation while ensuring the highest standards of security and compliance.",
+      "teamTitle": "Our Team",
+      "teamDescription": "Our team comprises seasoned professionals with diverse expertise in finance, technology, and cryptocurrency. United by a shared vision, we are committed to delivering excellence and supporting our clients' success in the digital currency market."
+    },
+    "services": {
+      "buyingSellingCrypto": {
+        "title": "Buying and Selling Cryptocurrency",
+        "description": "Seamlessly buy and sell a wide range of cryptocurrencies with confidence on our user-friendly platform. Enjoy competitive rates, fast transactions, and unparalleled customer support."
+      },
+      "cryptocurrencyFutures": {
+        "title": "Cryptocurrency Futures and Exchanges",
+        "description": "Dive into the future of finance with our cryptocurrency futures and exchange services. We facilitate secure exchanges between FIAT and virtual currencies, as well as virtual-to-virtual currency trading."
+      },
+      "cryptoStorage": {
+        "title": "Crypto Storage Solutions",
+        "description": "Secure your digital assets with our state-of-the-art crypto storage solutions. Our advanced protection measures ensure your assets and data are safe, accessible, and protected against threats."
+      },
+      "cryptoFinancing": {
+        "title": "Crypto Financing Solutions",
+        "description": "Unlock the potential of your digital assets with our flexible crypto financing solutions. Whether you're looking to take a loan in cryptocurrency or make deposits in digital currencies, we've got you covered."
+      }
+    },
+    "whatWeDo": {
+      "title": "What we do",
+      "services": {
+        "buyingSelling": "Buying and Selling<br/> Cryptocurrency",
+        "futuresExchanges": "Futures and<br/> Exchanges",
+        "cryptoStorage": "Crypto Storage<br/> Solutions",
+        "cryptoFinancing": "Crypto Financing<br/> Solutions"
+      }
+    }
+  }

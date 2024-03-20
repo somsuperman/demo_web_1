@@ -25,16 +25,15 @@
       <span v-if="submitted && errors.message" class="text-red-500 text-sm">{{ errors.message }}</span>
       <div>
         <button type="submit" class="router-link-exact-active md:p-0 white-grad block transition-all duration-300 hover:bg-white rounded-lg hover:scale-105 hover:bg-opacity-10 font-sans text-lg mt-3 sm:mt-6">
-          <span class="py-4 px-12 inline-block">Send message</span>
+          <span class="py-4 px-12 inline-block">{{ $t('sendMessageButton') }}</span>
         </button>
       </div>
     </form>
   </section>
 </template>
 <script setup lang="ts">
-import {
-  ref
-} from 'vue';
+import {ref} from 'vue';
+
 const formData = ref({
   firstName: '',
   lastName: '',
@@ -60,7 +59,7 @@ function validateField(fieldName) {
   switch (fieldName) {
     case 'firstName':
       if (!formData.value.firstName.trim()) {
-        errors.value.firstName = 'Please enter your first name';
+        errors.value.firstName = 'sd';
       }
       break;
     case 'lastName':

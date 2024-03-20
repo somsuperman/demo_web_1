@@ -4,10 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.gradient-border-bg {
-  border-image: linear-gradient(45deg, #0cd8f0, #ff67f0) 1;
-}
-
 .white-grad {
   --b: 2px;
   display: inline-block;
@@ -27,17 +23,4 @@
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
-}
-
-.permanent-marker-regular {
-  font-family: "Permanent Marker", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.baloo-tamma-400 {
-  font-family: "Baloo Tamma 2", system-ui;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
 }
