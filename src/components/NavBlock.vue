@@ -39,9 +39,10 @@
 <script lang="ts">
 import { ref } from 'vue';
 import LogoBlock from './LogoBlock.vue';
+import { TweenMax } from 'gsap';
 
 export default {
-  name: 'NavBock',
+  name: 'NavBlock',
   components: {
     LogoBlock
   },
@@ -58,6 +59,10 @@ export default {
     return {
       open,
       toggle() {
+        if (!open.value) {
+          TweenMax.staggerFrom("#menu li", 0.5, { opacity: 0, y: -50, ease: "back.out(1.7)"}, 0.1);
+        }
+
         open.value = !open.value;
         document.body.classList.toggle("menu-open");
       },
