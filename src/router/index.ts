@@ -15,7 +15,7 @@ const routes = [
     component: Home,
     meta: {
       title:
-        "Your gateway to pioneering crypto solutions | UNICORN technologies",
+          "Your gateway to pioneering crypto solutions | UNICORN technologies",
     },
   },
   {

@@ -60,7 +60,7 @@ export default {
       open,
       toggle() {
         if (!open.value) {
-          TweenMax.staggerFrom("#menu li", 0.5, { opacity: 0, y: -50, ease: "back.out(1.7)"}, 0.1);
+          TweenMax.staggerFrom("#menu, #menu li", 0.5, { opacity: 0, y: -50, ease: "back.out(1.7)"}, 0.1);
         }
 
         open.value = !open.value;
